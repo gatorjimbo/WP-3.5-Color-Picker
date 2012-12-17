@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP 3.5 Color Picker
 Plugin URI: URI of plugin goes here
-Description: Demonstrates how to use the new 3.5 color picker while easily falling back to farbtastic.
+Description: Demonstrates how to use the new WordPress 3.5 color picker while easily falling back to farbtastic.
 Version: 0.1
 Author: wiredimpact
 Author URI: http://wiredimpact.com
