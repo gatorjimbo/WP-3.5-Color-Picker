@@ -54,7 +54,7 @@ class Wp_Color_Picker {
     );
     
     //We use the provided hook_suffix that's returned to add our styles and scripts only on our settings page.
-    add_action('load-' . $settings, array($this, 'add_styles_scripts'));
+    add_action( 'load-' . $settings, array($this, 'add_styles_scripts' ));
   }
   
   
@@ -164,7 +164,7 @@ class Wp_Color_Picker {
     }
     
     //Load our custom Javascript file
-    wp_enqueue_script('wp-color-picker-settings', plugin_dir_url(__FILE__) . 'js/settings.js');
+    wp_enqueue_script( 'wp-color-picker-settings', plugin_dir_url(__FILE__) . 'js/settings.js' );
   }
 }
 
